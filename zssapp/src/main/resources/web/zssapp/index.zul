@@ -4,7 +4,8 @@
 	<window id="mainWin" hflex="1" vflex="1" apply="org.zkoss.zss.app.ui.AppCtrl">
 		<vlayout hflex="1" vflex="1" spacing="0">
 			<include hflex="1" src="~./zssapp/mainMenubar.zul" />
-			<spreadsheet id="ss" hflex="1" vflex="1"
+			<!-- set ignoreAutoHeight for ZSS-1362-->
+			<spreadsheet id="ss" hflex="1" vflex="1" ignoreAutoHeight="true"
 				showToolbar="true" showFormulabar="true" showSheetbar="true" showContextMenu="true" />
 		</vlayout>
 		<script id="confirmMsgWorkaround"><![CDATA[

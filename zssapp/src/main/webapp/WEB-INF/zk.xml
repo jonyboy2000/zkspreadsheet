@@ -9,10 +9,6 @@
 	<session-config>
 		<max-desktops-per-session>10</max-desktops-per-session>
 	</session-config>
-	<library-property>
-		<name>org.zkoss.web.util.resource.dir</name>
-		<value>/patch</value>
-	</library-property>
 
 <!--
 	<library-property>
